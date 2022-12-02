@@ -82,7 +82,6 @@ public class SearchMahasiswaActivity extends AppCompatActivity {
         tvNrp.setText(mahasiswaList.get(0).getNrp());
         tvNama.setText(mahasiswaList.get(0).getNama());
         tvEmail.setText(mahasiswaList.get(0).getEmail());
-
         tvJurusan.setText(mahasiswaList.get(0).getJurusan());
     }
     private void showLoading(Boolean isLoading) {

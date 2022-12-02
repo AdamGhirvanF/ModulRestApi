@@ -5,12 +5,12 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class MahasiswaResponse {
-    @SerializedName("data")
-    private List<Mahasiswa> data;
+    @SerializedName("mahasiswa")
+    private List<Mahasiswa> mahasiswa;
     @SerializedName("status")
     private boolean status;
     public List<Mahasiswa> getData(){
-        return data;
+        return mahasiswa;
     }
     public boolean isStatus() {
         return status;
